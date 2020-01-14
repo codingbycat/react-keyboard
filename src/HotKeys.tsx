@@ -95,7 +95,7 @@ export class HotKeys extends React.Component<HotKeysProps, {}> {
     }
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.updateMap()
     if (this.context.hotKeyParent) {
       this.hotKeyChain = this.context.hotKeyParent.hotKeyChain

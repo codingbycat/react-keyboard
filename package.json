@@ -1,6 +1,6 @@
 {
   "name": "react-keyboard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A declarative library for handling hotkeys and focus within a React application",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -37,6 +37,7 @@
     "webpack-dev-middleware": "^3.1.2"
   },
   "dependencies": {
+    "@types/enzyme-adapter-react-16": "^1.0.5",
     "lodash.isequal": "^4.5.0",
     "mousetrap": "^1.6.2"
   },
